@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: rgb(8, 0, 1);
+    border-radius:30px;
+    width: 100vw;
+    height: 9vh;
+}
+.navbar ul{
+overflow: auto;
+}
+.navbar li{
+float: left;
+list-style: none;
+margin: 15px 20px;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color: red;
+}
+.search{
+float: right;
+color: white;
+padding: auto 10px;
+margin-top: 15px;
+margin-right: 10px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+}
+#button{
+width: 80px;
+cursor: pointer;
+}
+/* #button:hover{
+    background-color: black;
+    color: white;
+} */
+#button:active{
+background-color: black;
+color: white;
+transform: 0.5s ease;
+}
